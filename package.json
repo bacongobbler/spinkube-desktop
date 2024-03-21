@@ -1,0 +1,40 @@
+{
+  "name": "desktop-edition",
+  "description": "An Electron application built with Vite, Svelte, and TypeScript",
+  "license": "Apache-2.0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "src/index.cjs",
+  "scripts": {
+    "start": "NODE_ENV=development concurrently \"npm run dev\" \"electron-forge start\"",
+    "dev": "vite",
+    "electron": "electron",
+    "build": "vite build && electron-forge make",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.1",
+    "@electron-forge/maker-deb": "^7.3.1",
+    "@electron-forge/maker-rpm": "^7.3.1",
+    "@electron-forge/maker-squirrel": "^7.3.1",
+    "@electron-forge/maker-zip": "^7.3.1",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.3.1",
+    "@electron-forge/plugin-fuses": "^7.3.1",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@tsconfig/svelte": "^5.0.2",
+    "concurrently": "^8.2.2",
+    "electron": "^29.1.5",
+    "svelte": "^4.2.12",
+    "svelte-check": "^3.6.7",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  }
+}
