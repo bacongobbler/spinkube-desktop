@@ -1,5 +1,5 @@
 {
-  "name": "desktop-edition",
+  "name": "spinkube-desktop",
   "description": "An Electron application built with Vite, Svelte, and TypeScript",
   "license": "Apache-2.0",
   "private": true,
