@@ -1,6 +1,6 @@
 # SpinKube Desktop
 
-Desktop application for SpinKube. Built with Svelte, Electron, and Vite.
+Desktop application for SpinKube. Built with Svelte, Electron, Vite, and TailwindCSS.
 
 ## Recommended IDE Setup
 
