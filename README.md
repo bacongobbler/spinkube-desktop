@@ -12,5 +12,6 @@ Desktop application for SpinKube. Built with Svelte, Electron, and Vite.
 git clone https://bacongobbler/spinkube-desktop.git
 cd spinkube-desktop
 npm install
+export NODE_ENV=development
 npm start
 ```
